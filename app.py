@@ -1,8 +1,10 @@
 import streamlit as st
 import librosa
 import numpy as np
+import torch
+from transformers import Wav2Vec2ForSequenceClassification, Wav2Vec2Processor
 
-model_path = "path/to/your/checkpoint"
+model_path = "D:\Akhilesh-VS-Code\Speech-Classification\wav2vec2-large-weighted-training-3-3\checkpoint-2952"
 model = Wav2Vec2ForSequenceClassification.from_pretrained(model_path)
 processor = Wav2Vec2Processor.from_pretrained(model_path)
 
