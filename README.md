@@ -1,16 +1,20 @@
 # Emotion classification on speech data
 
-> ⚠️ **Caution**  
->  
-> I discussed the issue with Arpit from the Mars Club regarding my project model, which is approximately **3.1 GB** in size and could not be pushed to GitHub due to file size limitations.  
-> Based on his suggestion, I have included the following components in the repository:  
->  
-> - **`Notebook.ipynb`**: Contains the core experiments along with corresponding plots and graphs.  
-> - **`notebook_weighted_training.ipynb`**: Includes experiments using weighted training to improve precision for classes that were initially below 75%.  
-> - **`Demo Video.mp4`**: A demonstration video showcasing the model's functionality and performance.  
->  
-> Further details regarding project execution can be found in the **Project Execution** section of this README.
+---
 
+### ⚠️ **Caution**
+
+I discussed the issue with **Arpit from the Mars Club** regarding my project model, which is approximately **3.1 GB** in size and could not be pushed to GitHub due to file size limitations.
+
+Based on his suggestion, the following components have been included in the repository:
+
+- **Notebook.ipynb** – Contains the core experiments along with corresponding plots and graphs.  
+- **notebook_weighted_training.ipynb** – Includes experiments using weighted training to improve precision for classes that initially had precision below 75%.  
+- **Demo Video.mp4** – A demonstration video showcasing the model’s functionality and performance.
+
+Further details about project execution can be found in the **Project Execution** section of this README.
+
+---
 
 
 ## Project Overview
